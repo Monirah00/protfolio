@@ -1,0 +1,169 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.navbar{
+  background-color: black;
+  padding: 1% 1%;
+}
+.nav-link{
+  font-size: 20px;
+  transition: 0.5s;
+}
+.nav-link:hover{
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+.navbar-toggler-icon{
+  border-radius: 5px;
+}
+.header{
+  background-image: url('./Components/images/header-wallpaper.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+}
+.header-content{
+  padding: 5% 5%;
+  color: white;
+  margin-top: 40px;
+}
+.header-content>p{
+  font-size: 24px;
+}
+.header-btn{
+  margin: 10px 10px;
+}
+
+
+.Myservice{
+  background-color:#1f2235;
+}
+.Myskill{
+  text-align: center;
+  color: red;
+  font-size: 25px;
+  padding-top: 25px;
+}
+.Bg-main{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.colum-4{
+  width: 21%;
+  padding: 20px 20px;
+  
+}
+.card{
+  text-align: center;
+  text-transform: capitalize;
+  border: 2px solid white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 20rem;
+  transition: 0.5s;
+  padding: 20px 20px;
+  background: aqua;
+ 
+}
+.card-Title{
+  margin-top: 30px;
+}
+.card:hover{
+  background-color: rgb(238, 113, 91);
+}
+.Colum-6{
+  padding-top: 40px;
+
+}
+
+.About-Me{
+  text-align: center;
+  font-size: 25px;
+  color: red;
+  padding-top: 20px;
+}
+
+.from-control{
+  width: 100%;
+  height: 50vh;
+  padding: 7% 10%;
+  
+}
+.label{
+  margin-bottom: 15px;
+  font-size: 20px;
+
+}
+.from-control input{
+  padding: 10px 10px;
+  width: 80%;
+  border-radius: 5px;
+}
+.option{
+width: 30%;
+padding: 10px 10px;
+border-radius: 5px;
+}
+
+.Alladdress {
+  text-align: center;
+  margin-top: 40px;
+ }
+
+ 
+ .Details {
+ color: white;
+ }
+.Contact-Me{
+  text-align: center;
+  font-size: 25px;
+  color: red;
+  padding-top: 20px;
+}
+
+.Footer-bg{
+  background-color: rgb(49, 47, 47);
+}
+
+
+.Icons-style{
+  font-size: 20px;
+  color:palevioletred;
+  padding-left: 3%;
+  align-items: center;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.Icons-style:hover{
+  transform: scale(1.1);
+}
+
+@media screen and (max-width:800px) {
+  .colum-4{
+    width: 48%;
+  }
+  
+  
+}
+
+
+@media screen and (max-width:600px) {
+  .colum-4{
+    width: 98%;
+  }
+  .Alladdress {
+    text-align: center;
+    padding-top: 70px;
+   }
+   .option{
+     width: 60%;
+   }
+  
+  
+}
